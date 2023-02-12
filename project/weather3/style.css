@@ -1,0 +1,43 @@
+
+  body{
+   background-color: cadetblue;
+   background-size: cover;
+   color: white;
+   text-align: center;
+   
+  }
+  #cityInput{
+    width: 70%;
+    height: 50px;
+    border-radius: 10px;
+    margin: 10px;
+
+  }
+  button{
+    width:100px;
+    height: 50px;
+    background-color: blue;
+    border-radius: 10px;
+    margin: 10px;
+  }
+
+
+  
+  #weatherForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #weatherResult {
+    margin-top: 20px;
+    position: absolute;
+    left: 43%;
+    font-size: 20px;
+  }
+@media(max-width:400px) {
+  #weatherResult{
+   left: 20%;
+  }
+  
+}

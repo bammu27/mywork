@@ -1,0 +1,42 @@
+.three{
+
+    width:100%;
+   
+   
+    
+}
+#pricing-head{
+
+    font-size: 50px;
+    margin: 10px;
+    font-family: sans-serif;
+    color: cornflowerblue;
+}
+#product-head{
+    
+    font-size: 50px;
+   
+    font-family: sans-serif;
+    color: cornflowerblue;
+    margin: 10px;
+}
+#closeAi{
+    color: white;
+    font-size: 36px;
+    transition: color 2s, font-size 2s;
+    
+}
+#closeAi:hover{
+    color: blueviolet;
+    font-size: 50px;
+}
+
+#close{
+    position: relative;
+    transition: top 4s,color 1s, font-size 4s;
+}
+#close:hover{
+    color: #5b21b6;
+    top:-20px;
+    font-size: 100px;
+}
